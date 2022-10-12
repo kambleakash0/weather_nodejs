@@ -9,7 +9,6 @@ weatherForm.addEventListener('submit', (e) => {
     loc = search.value
     msg1.textContent = 'Loading...'
     msg2.textContent = ''
-    img.
     fetch('/weather?address='+loc).then((response) => {
         response.json().then((data) => {
             if (data.error) {
