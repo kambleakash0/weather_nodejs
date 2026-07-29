@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.22.1",
-    "hbs": "^4.2.0",
+    "hbs": "^4.2.1",
     "postman-request": "^2.88.1-postman.31"
   },
   "devDependencies": {
